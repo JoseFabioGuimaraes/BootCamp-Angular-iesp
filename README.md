@@ -1,27 +1,61 @@
-# SystemBank2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+# Bootcamp de Angular - UNIESP
 
-## Development server
+## Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Systembank 2 é um projeto Front-end desenvolvido pela professora [Nicole Almeida](https://github.com/Nicoly-Almeida) juntamente com seus alunos para o Bootcamp Front-End com Angular da instituição UNIESP. O projeto é alimentado por uma API Django. Durante o Bootcamp, fiz algumas alterações nas informações e estilos conforme meu gosto e conhecimentos passados pela docente.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Inserir:
+    - Insere um novo cliente.
+    - Método HTTP: POST
+   
 
-## Build
+Listar:
+ - Lista todos os clientes.
+ - Método HTTP: GET
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+ListarPaginado:
+- Lista clientes de forma paginada.
+- Método HTTP: GET
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Deletar:
+ - Deleta um cliente pelo ID.
+ - Método HTTP: DELETE
 
-## Running end-to-end tests
+PesquisarPorId:
+    - Pesquisa um cliente pelo ID.
+    - Método HTTP: GET
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Atualizar:
+    - Atualiza os dados de um cliente.
+    - Método HTTP: PUT
 
-## Further help
+## Tecnologias Utilizadas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Angular
+- TypeScript
+- HTML
+- CSS
+
+## Como Executar
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/JoseFabioGuimaraes/BootCamp-Angular-iesp.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd systembank2
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Execute a aplicação:
+    ```bash
+    ng serve
+    ```
+5. Abra o navegador e acesse `http://localhost:4200`.
