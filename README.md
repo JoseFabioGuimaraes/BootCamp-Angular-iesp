@@ -26,12 +26,12 @@ Deletar:
  - Método HTTP: DELETE
 
 PesquisarPorId:
-    - Pesquisa um cliente pelo ID.
-    - Método HTTP: GET
+- Pesquisa um cliente pelo ID.
+- Método HTTP: GET
 
 Atualizar:
-    - Atualiza os dados de um cliente.
-    - Método HTTP: PUT
+- Atualiza os dados de um cliente.
+- Método HTTP: PUT
 
 ## Tecnologias Utilizadas
 
