@@ -8,8 +8,8 @@ Systembank 2 é um projeto Front-end desenvolvido pela professora [Nicole Almeid
 ## Funcionalidades
 
 Inserir:
-    - Insere um novo cliente.
-    - Método HTTP: POST
+- Insere um novo cliente.
+- Método HTTP: POST
    
 
 Listar:
