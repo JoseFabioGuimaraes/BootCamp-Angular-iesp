@@ -1,14 +1,14 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './shared/material/material.module';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';  
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MaterialModule } from './shared/material/material.module';
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask';
-
+import { ClienteModule } from './pages/cliente/cliente.module';
 
 @NgModule({
   declarations: [
@@ -23,10 +23,11 @@ import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask';
     HttpClientModule,
     MaterialModule,
     NgxMaskDirective,
-    NgxMaskPipe
-    ],
-    schemas: [CUSTOM_ELEMENTS_SCHEMA],
-    providers: [provideNgxMask()],
-    exports: []
+    NgxMaskPipe,
+    ClienteModule
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  providers: [provideNgxMask()],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
